@@ -1,0 +1,16 @@
+{
+    "data": [
+        { "clientName": "Ann Liebmann", "phoneNumber": "+27-61-453-5111", "email": "ann.lieb@", "policyNumber": "0013983887" },
+        { "clientName": "Ann Summer", "phoneNumber": "+27-61-453-5222", "email": "ann.summer@", "policyNumber": "0013983821" },
+        { "clientName": "Anabelle Samuel", "phoneNumber": "+27-61-453-5333", "email": "anna.samuel@", "policyNumber": "0013983324" },
+        { "clientName": "Abes Summer", "phoneNumber": "+27-61-453-5432", "email": "ann.lieb@", "policyNumber": "0013983123" },
+        { "clientName": "John Dev", "phoneNumber": "+27-61-453-5444", "email": "john@", "policyNumber": "0013983546" },
+        { "clientName": "Criss Miller", "phoneNumber": "+27-61-453-5666", "email": "miller@", "policyNumber": "0013983765" },
+        { "clientName": "Silvester", "phoneNumber": "+27-61-453-5777", "email": "silvester@", "policyNumber": "0013983322" },
+        { "clientName": "Lionello", "phoneNumber": "+27-61-453-5421", "email": "lionello@", "policyNumber": "0013983897" },
+        { "clientName": "Celka", "phoneNumber": "+27-61-453-5412", "email": "celka@", "policyNumber": "0013983560" },
+        { "clientName": "William", "phoneNumber": "+27-61-453-3421", "email": "william@", "policyNumber": "0013983650" },
+        { "clientName": "Eleonore", "phoneNumber": "+27-61-453-5211", "email": "eleonore@", "policyNumber": "0013983666" },
+        { "clientName": "Katheryn", "phoneNumber": "+27-61-453-5120", "email": "katheryn@", "policyNumber": "0013983453" }
+    ]
+}

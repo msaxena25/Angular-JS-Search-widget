@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>new</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="resources/css/bootstrap.css" rel="stylesheet" />
+    <link href="resources/css/app.css" rel="stylesheet" />
+
+
+</head>
+<body ng-app="xebia-app">
+    <div ng-controller="appController as aCtrl">
+        <search-widget dataset="aCtrl.dataSet" on-key-press="aCtrl.onSearch(inputText)"></search-widget>
+    </div>
+    <script src="resources/js/jquery-3.2.1.min.js"></script>
+    <script src="resources/js/bootstrap.min.js"></script>
+    <script src="resources/js/angular.min.js"></script>
+    <script src="app.js"></script>
+    <script src="search.component.js"></script>
+    <script src="app.controller.js"></script>
+    <script src="data.service.js"></script>
+
+</body>
+</html>
+
+

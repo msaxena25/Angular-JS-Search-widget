@@ -1,0 +1,20 @@
+﻿
+<div class="search-div">
+    <div class="search-div__searchField">
+        <i class="material-icons prefix search-div__search-icon">search</i>
+        <input class="search-div__input" type="text" ng-model="swCtrl.searchText" placeholder="SEARCH (Client Name / Policy Number)" ng-change="swCtrl.onKeyPress({inputText: swCtrl.searchText})">
+        
+    </div>
+</div>
+<section class="data-section">
+    <div class="data-section__item-div" ng-repeat="item in swCtrl.dataset" ng-class="{ 'data-section__odd-item': $odd, 'data-section__even-item': $even }">
+        <p class="data-section__clientName">{{item.clientName}}</p>
+        <div class="infoContainer">
+            <div class="infoContainer__phone-div"><i class="material-icons prefix">local_phone</i>{{item.phoneNumber}}</div>
+            <div class="infoContainer__email-div"><i class="material-icons prefix infoContainer__email-div--email-icon">@</i>{{item.email}}</div>
+            <div class="infoContainer__policy-div"><i class="material-icons prefix">insert_drive_file</i>Policy No.  {{item.policyNumber}} | {{item.policyNumber}}</div>
+        </div>
+
+    </div>
+</section>
+mohit
