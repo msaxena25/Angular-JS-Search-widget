@@ -4,5 +4,6 @@
 
     vm.onSearch = function (value) {
         vm.dataSet = DataService.getData(value);
+        console.log(vm.dataSet);
     }
 }]);

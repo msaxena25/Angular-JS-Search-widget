@@ -2,6 +2,11 @@ body {
   background-color: black;
 }
 
+.content {
+    padding:20px;
+    color: white;
+}
+
 .search-div {
   margin-top: 8px;
 }
@@ -26,6 +31,8 @@ body {
 .data-section {
   padding: 0 5px;
   background-color: #433D5D;
+  width: 100%;
+  position: absolute;
 }
 .data-section .data-section__even-item {
   background-color: #F7F7F7;
