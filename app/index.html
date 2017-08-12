@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Search Widget</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="resources/css/bootstrap.css" rel="stylesheet" />
+    <link href="resources/css/app.css" rel="stylesheet" />
+
+
+</head>
+<body ng-app="xebia-app">
+    <div ng-controller="appController as aCtrl">
+        <search-widget dataset="aCtrl.dataSet" on-key-press="aCtrl.onSearch(inputText)"></search-widget>
+        
+      <p class="content">This is Angular JS + HTML + CSS Search widget UI Project Asssessment. It contain a search input field. When you type a client Name or policy Number, it will display records that matched with typed keyword. This Assessment is currently working with Static Data.</p>
+    </div>
+    <script src="resources/js/jquery-3.2.1.min.js"></script>
+    <script src="resources/js/bootstrap.min.js"></script>
+    <script src="resources/js/angular.min.js"></script>
+    <script src="app.js"></script>
+    <script src="search.component.js"></script>
+    <script src="app.controller.js"></script>
+    <script src="data.service.js"></script>
+
+</body>
+</html>
+
+

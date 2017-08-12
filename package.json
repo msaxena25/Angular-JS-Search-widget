@@ -1,0 +1,25 @@
+{
+  "name": "searchwidget",
+  "version": "1.0.0",
+  "description": "This is Angular JS Type ahead search widget assessment.",
+  "main": "index.html",
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/msaxena25/Angular-JS-Search-widget.git"
+  },
+  "author": "Mohit S",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/msaxena25/Angular-JS-Search-widget/issues"
+  },
+  "homepage": "https://github.com/msaxena25/Angular-JS-Search-widget#readme"
+}
